@@ -3,24 +3,24 @@
 
 
 ## Overview
-I created this light-weight tween library to learn about linear interpolation and easing functions. It was implemented successfully in another project of mine called Space Gems. The library provides a quick, useful way to animate your 2D & 3D GameObjects in Unity by building Effect objects and feeding them into the EffectBuilder. Building an Effect is straightforward: give it an end value, the duration of the animation, and the start delay time. Tween Daddy does the rest.
+I created this lightweight tween library to learn about linear interpolation and easing functions. It was implemented successfully in another project of mine called Space Gems. The library provides a quick, useful way to animate your 2D & 3D GameObjects in Unity by building Effect objects and feeding them into the EffectBuilder. Building an Effect is straightforward: give it an end value, the duration of the animation, and the start delay time. Tween Daddy does the rest.
 
 ## Package Contents
 The library is located in the Runtime folder while the basic usage sample can be found in the Samples folder.
 
 ## Requirements
-As tested so far, Tween-Daddy runs on Unity version 2021.3.
+As tested so far, the project runs on Unity version 2021.3.
 
 ## Installation Instructions
-You can use install the Tween Daddy package in your Unity project through Github in two ways.
+You can use install the package in your Unity project through Github in two ways.
 1. **The Package Manager**: In your Unity Project, open the Package Manager (Window > Package Manager) and choosing "Add Package from git URL" in the '+' dropdown menu that is located in the top-left of the Package Manager window. See [Installing from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html) in Unity Documentation for more info.
 
 2. **Manifest.json**: Using your computer's file manager (e.g., Windows Explorer or macOS Finder), navigate to the manifest.json file, located in *Your-Projects-Name*/Packages. Open the file in your favorite text editor, and add the following in first line of the "dependencies" entry:
- >`"com.miisko-wiiyaas.tween-daddy": "https://github.com/ACour008/Tween-Daddy.git"`
+ >`"com.miisko-wiiyaas.tween-library": "https://github.com/ACour008/Tween-Library.git"`
 
  **Remember**: add a comma after you enter the package information to avoid any errors during start up.
 
-## How to Use Tween Daddy
+## How to use the library
 `Samples/BasicUsage.cs`
 
 ```C#
