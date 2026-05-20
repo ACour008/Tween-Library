@@ -3,13 +3,13 @@
 
 
 ## Overview
-Tween Daddy provides users a quick, useful way to animate your 2D & 3D GameObjects in Unity by building Effect objects and feeding them into the EffectBuilder. Building an Effect is straightforward: give it an end value, the duration of the animation, and the start delay time. Tween Daddy does the rest.
+I created this light-weight tween library to learn about linear interpolation and easing functions. It was implemented successfully in another project of mine called Space Gems. The library provides a quick, useful way to animate your 2D & 3D GameObjects in Unity by building Effect objects and feeding them into the EffectBuilder. Building an Effect is straightforward: give it an end value, the duration of the animation, and the start delay time. Tween Daddy does the rest.
 
 ## Package Contents
 The library is located in the Runtime folder while the basic usage sample can be found in the Samples folder.
 
 ## Requirements
-As tested so far, Tween-Daddy runs on Unity version 2021.3. Tests on other versions of Unity will be documented as development continues.
+As tested so far, Tween-Daddy runs on Unity version 2021.3.
 
 ## Installation Instructions
 You can use install the Tween Daddy package in your Unity project through Github in two ways.
@@ -48,6 +48,3 @@ public class BasicUsage : MonoBehaviour
 }
 ```
 [More Samples Here.](https://github.com/ACour008/Tween-Daddy/tree/main/Samples)
-
-## Contributing to the project
-There is a need for testing so if you would like to contribute, feel free to reach out.
