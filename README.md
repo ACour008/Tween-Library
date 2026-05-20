@@ -1,4 +1,4 @@
-# Tween Daddy
+# Tween Library
 ### A lightweight tween animation library for Unity3D
 
 
