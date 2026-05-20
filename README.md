@@ -3,7 +3,7 @@
 
 
 ## Overview
-I created this lightweight tween library to learn about linear interpolation and easing functions. It was implemented successfully in another project of mine called Space Gems. The library provides a quick, useful way to animate your 2D & 3D GameObjects in Unity by building Effect objects and feeding them into the EffectBuilder. Building an Effect is straightforward: give it an end value, the duration of the animation, and the start delay time. Tween Daddy does the rest.
+I created this lightweight tween library to learn about linear interpolation and easing functions. It was implemented successfully in another project of mine called Space Gems. The library provides a quick, useful way to animate your 2D & 3D GameObjects in Unity by building Effect objects and feeding them into the EffectBuilder. Building an Effect is straightforward: give it an end value, the duration of the animation, and the start delay time. The library does the rest.
 
 ## Package Contents
 The library is located in the Runtime folder while the basic usage sample can be found in the Samples folder.
@@ -47,4 +47,4 @@ public class BasicUsage : MonoBehaviour
 
 }
 ```
-[More Samples Here.](https://github.com/ACour008/Tween-Daddy/tree/main/Samples)
+[More Samples Here.](https://github.com/ACour008/Tween-Library/tree/main/Samples)
